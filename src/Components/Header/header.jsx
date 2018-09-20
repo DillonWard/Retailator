@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <i id='header-icon' class="fa fa-5x  fa-home"></i>
+        <i id='header-icon' className="fa fa-5x  fa-home"></i>
           <h1 className="App-title">Welcome to Retailator</h1>
         </header>
       </div>
