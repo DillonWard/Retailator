@@ -11,10 +11,11 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-
         <Header></Header>
+
+        {this.props.children}
+
         <FooterPage></FooterPage>
-      
       </React.Fragment>
 
 
