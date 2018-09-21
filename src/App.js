@@ -12,9 +12,8 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header></Header>
-        <div>
+
           <Routes/>
-        </div>
 
         <FooterPage></FooterPage>
       </React.Fragment>
