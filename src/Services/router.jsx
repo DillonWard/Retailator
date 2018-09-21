@@ -1,15 +1,15 @@
-import React from 'react';
-import { Router, Route } from 'react-router';
-import App from '../App';
+import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import HomeCards from '../Components/HomeCards/homeCards';
 
-const Routes = (props) => {
-
-    <Router {...props}>
-        <Route path = "/" component={App}>
-            <Route path="/home" component={HomeCards}/>
-        </Route>
-    </Router>
-};
-
-export default Routes;
+export default class Routes extends Component{
+    render() {
+        return (
+            <BrowserRouter>
+              <Route path= "/home" component = {HomeCards}/>
+            </BrowserRouter>
+    
+        );
+      }
+    
+}

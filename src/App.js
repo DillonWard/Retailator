@@ -5,15 +5,16 @@ import FooterPage from './Components/Footer/footer';
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
-
+import Routes from './Services/router';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Header></Header>
-
-        {this.props.children}
+        <div>
+          <Routes/>
+        </div>
 
         <FooterPage></FooterPage>
       </React.Fragment>
