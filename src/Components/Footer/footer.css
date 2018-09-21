@@ -5,15 +5,15 @@
     width: 100%;
     background-color: #F4F5F9;
     align-content: center;
-    padding-block-end: .3%;
     color: darkgray;
-    
  }
 
  #cpr{
      color: rgb(149, 148, 148);
  }
-
- #sm{
-     color: black;
- }
+ 
+ #cp{
+    margin-bottom: .2%;
+    text-align: center;
+    
+}

@@ -1,0 +1,36 @@
+#welcome {
+  width: 100% !important;
+  padding-left: 5%;
+  padding-top: 5% !important;
+  /* The image used */
+  background-image: linear-gradient(rgba(58, 58, 58, 0.5), rgba(0, 0, 0, 0.5)),
+    url("buildings.jpg");
+
+  /* Full height */
+  height: 80%;
+  height: 95vh;
+  margin: 0;
+  padding: 0;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#info {
+  margin-right: 10%;
+  color: white;
+}
+
+#start{
+
+    animation-delay: 1s;
+}
+
+#about{
+    animation-delay: 3s;
+}
+
+#begin{
+    animation-delay: 5s;
+}
