@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Components/Header/header';
-import FooterPage from './Components/Footer/footer';
+//import FooterPage from './Components/Footer/footer';
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
 import Routes from './Services/router';
+// import Navigation from './Services/Navigation';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Header></Header>
+        {/* <Header></Header> */}
 
           <Routes/>
 
-        <FooterPage></FooterPage>
+        {/* <FooterPage></FooterPage> */}
       </React.Fragment>
 
 

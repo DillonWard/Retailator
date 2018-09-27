@@ -3,9 +3,9 @@
     height: 30px;
     padding: 5px;
     color: darkgray;
-    text-align: right;
+    text-align: center;
     font-size: 15px;
-    padding-right: 5%;
+    align-content: center;
   }
 
   .App-title {

@@ -5,11 +5,9 @@ import { Container, Row, Col, } from "mdbreact";
 export default class Header extends Component {
   render() {
     return (
-      <div className="App">
         <header className="App-header">
-          <p>Contact: Help@retailator.com</p>
+        &copy; {(new Date().getFullYear())} Copyright: <a id='cpr' href="https://github.com/DillonWard/Retailator" target="_blank"> Retailator - Dillon Ward </a>
         </header>
-      </div>
     );
   }
 }
